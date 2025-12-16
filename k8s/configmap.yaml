@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: desafio-axia-config
+  namespace: desafio-axia
+data:
+  ASPNETCORE_ENVIRONMENT: "Production"
+  ASPNETCORE_URLS: "http://+:8080"
+  ConnectionStrings__DefaultConnection: "Host=postgres-service;Port=5432;Database=VeiculosDb;Username=postgres;Password=postgres"
+
