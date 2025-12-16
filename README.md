@@ -68,7 +68,7 @@ Este script verifica:
 
 1. **Clone o repositório:**
 ```bash
-git clone <https://github.com/adisiojunior/desafio-tecnico-axia>
+git clone https://github.com/adisiojunior/desafio-tecnico-axia
 cd desafio-tecnico-axia
 ```
 
